@@ -14,7 +14,7 @@ from sklearn.ensemble import RandomForestClassifier
 
 from sklearn.metrics import accuracy_score
 
-dataset = pd.read_csv('heart_failure_clinical_records_dataset.csv')
+dataset = pd.read_csv('dataset.csv')
 dataset = dataset[dataset['ejection_fraction']<70]
 
 x = dataset.iloc[:, [4,7,11]].values
