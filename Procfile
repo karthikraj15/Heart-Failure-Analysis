@@ -1,1 +1,1 @@
-web: sh setup.sh && streamlit run Heart-Failure-Analysis.py
+web: sh setup.sh && streamlit run app.py
